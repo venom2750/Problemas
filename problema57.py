@@ -1,4 +1,3 @@
-#AYUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 #Este programa lo que hará será mostrar la expresión matemática simbólica de Vc(t)
 #Además hará una gráfica que mostrará como el voltaje del capacitor va creciendoe exponencialmente hasta 21
 import numpy as np
@@ -31,7 +30,7 @@ vC_vals = E * (1 - np.exp(-t_vals / tau))
 plt.figure(figsize=(8, 5))
 plt.plot(t_vals, vC_vals, label=r'$v_C(t) = 21(1 - e^{-t/\tau})$', color='blue')
 plt.axhline(y=E, color='gray', linestyle='--', linewidth=0.7, label=f'Voltaje Final :D ({E} V)')
-plt.title("Carga del Capacitor vC(t) (AYUDAAAAAAAAAAAAAAA)")
+plt.title("Carga del Capacitor vC(t)")
 plt.xlabel("Tiempo (s)")
 plt.ylabel("Voltaje vC (V) :p")
 plt.grid(True)
